@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.sj.todoapp.DetailActivity">
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:id="@+id/imageView13"
+            android:scaleType = "centerCrop"
+            android:src = "@drawable/store_header01"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="130dp"
+            android:id="@+id/imageView14"
+            android:scaleType = "centerCrop"
+            android:src = "@drawable/store_info"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:id="@+id/imageView15"
+            android:scaleType = "centerCrop"
+            android:src = "@drawable/store_map"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="180dp"
+            android:id="@+id/imageView16"
+            android:scaleType = "centerCrop"
+            android:src = "@drawable/store_photo"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:id="@+id/imageView17"
+            android:scaleType = "centerCrop"
+            android:src = "@drawable/store_review"
+            />
+
+
+
+    </LinearLayout>
+
+            <TextView
+                android:layout_marginTop="0dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="500m내 스터디"
+                android:gravity="top|center"
+                android:id="@+id/textView1"
+                android:clickable="true"
+                android:background="@android:color/transparent"
+                android:layout_gravity="center_horizontal" />
+        </FrameLayout>
+    </ScrollView>
+
+</RelativeLayout>

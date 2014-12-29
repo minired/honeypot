@@ -1,0 +1,76 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sj.todoapp.MapActivity">
+
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/FrameLayoutMap"
+        />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="left|top"
+        >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="이 노트북,\n3분 내로 내려놓을께요"
+        android:gravity="top|left"
+        android:paddingLeft="40dp"
+        android:id="@+id/textView"
+        android:clickable="true"
+        android:layout_gravity="left|top"
+        android:textSize="15sp"
+        android:background="#fef200" />
+
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="500 m 내에 있는 스터디 공간입니다."
+        android:paddingLeft="40dp"
+        android:gravity="top|left"
+        android:id="@+id/textView2"
+        android:clickable="true"
+        android:layout_gravity="left|left"
+        android:textSize="15sp"
+        android:background="#fef200" />
+
+
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src = "@drawable/backarrow"
+        android:id="@+id/imageView9"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:scaleType = "fitEnd"
+        />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="bottom"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="리스트 보기"
+            android:gravity="top|center"
+            android:id="@+id/textView3"
+            android:clickable="true"
+            android:textSize="20sp"
+            android:background="#fef200"
+            android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+</FrameLayout>
